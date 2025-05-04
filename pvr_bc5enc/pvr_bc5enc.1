@@ -1,0 +1,30 @@
+.TH PVR_BC5ENC 1 "May 2025" "Version 1.0"
+.SH NAME
+pvr_bc5enc \- pvr_bc5enc
+.SH SYNOPSIS
+.B pvr_bc5enc
+.IR from
+.IR to
+
+.SH DESCRIPTION
+.B pvr_bc5enc
+is used to convert a 3d RGB XYZ normal map into a SEGA Dreamcast PVR 2D normal map texture and apply a customized BC5 compression to it.
+
+.SH EXAMPLES
+
+.EX
+.B
+   pvr_bc5enc infile.png outfile.comp
+.EE
+
+.EX
+.B
+   pvr_bc5enc infile.jpg outfile.comp
+.EE
+
+.SH AUTHOR
+This manual page was initially written by Stefan Galowicz <bogglez@protonmail.ch>,
+for the KOS project.
+.TP
+The program has been initially written by Frederik Ehnbom in 2005.
+It was modified to take 3D x,y,z normal maps as input by Jason Martin in 2024. Compression was developed by erik5249 in 2024.
