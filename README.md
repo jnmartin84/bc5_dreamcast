@@ -1,6 +1,8 @@
 # bc5_dreamcast
 BC5 codec for Dreamcast PowerVR normal map textures
 
+Encoder provides fixed 50% compression ratio for PVR hemispherical normal map textures.
+
 Compressed normal maps are decoded + twiddled simultaneously. This can be done directly into a `pvr_ptr_t` VRAM pointer.
 
 Usage:
