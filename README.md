@@ -1,5 +1,5 @@
 # bc5_dreamcast
-BC5 codec for Dreamcast PowerVR normal map textures
+BC5 codec for Dreamcast PowerVR normal map textures. Developed by erik5249 for Doom 64 for the Sega Dreamcast.
 
 Encoder provides fixed 50% compression ratio for PVR hemispherical normal map textures.
 
